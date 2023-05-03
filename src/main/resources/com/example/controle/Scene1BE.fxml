@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.controle.S1ControllerBE">
+    <children>
+        <AnchorPane layoutX="-2.0" layoutY="-1.0" prefHeight="400.0" prefWidth="302.0">
+            <children>
+                <Label layoutX="92.0" layoutY="151.0" text="Manager's application" />
+                <Label layoutX="68.0" layoutY="200.0" text="application de gestion des managers" />
+            </children>
+        </AnchorPane>
+        <AnchorPane layoutX="300.0" prefHeight="400.0" prefWidth="302.0">
+            <children>
+                <Label layoutX="76.0" layoutY="156.0" text="Username" />
+                <TextField fx:id="usr" layoutX="76.0" layoutY="174.0" />
+                <Label layoutX="76.0" layoutY="224.0" text="password" />
+                <PasswordField fx:id="pwd" layoutX="76.0" layoutY="242.0" />
+                <Button fx:id="btn" layoutX="118.0" layoutY="280.0" mnemonicParsing="false" onMouseClicked="#authentifier" text="login" />
+                <Label graphicTextGap="6.0" layoutX="100.0" layoutY="93.0" lineSpacing="10.0" prefHeight="30.0" prefWidth="79.0" text="LOGIN">
+                    <font>
+                        <Font name="Droid Serif" size="24.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>
